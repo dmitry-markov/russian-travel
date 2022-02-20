@@ -1,0 +1,32 @@
+.lead__caption{
+  font-weight: normal;
+font-size: 10px;
+line-height: 14px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+}
+
+.lead__caption:last-of-type{
+  margin: 0;
+    align-self: flex-start;
+    padding-left: 148px;
+    padding-top: 8px;
+}
+
+@media(max-width: 1024px) {
+  .lead__caption:last-of-type{
+    padding-left: 48px;
+  }
+}
+
+@media(max-width: 768px) {
+  .lead__caption:last-of-type{
+    padding-left: 24px;
+  }
+}
+
+@media(max-width: 320px) {
+  .lead__caption:last-of-type{
+    padding-left: 16px;
+  }
+}

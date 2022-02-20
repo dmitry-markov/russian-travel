@@ -1,0 +1,22 @@
+.intro__list-zone{
+  margin: 0;
+  padding: 0px 0px 92px 148px;
+}
+
+@media(max-width: 1024px) {
+  .intro__list-zone{
+    padding: 0px 0px 92px 48px;
+  }
+}
+
+@media(max-width: 768px) {
+  .intro__list-zone{
+    padding: 0px 0px 88px 24px;
+  }
+}
+
+@media(max-width: 320px) {
+  .intro__list-zone{
+    padding: 0px 0px 64px 16px;
+  }
+}
